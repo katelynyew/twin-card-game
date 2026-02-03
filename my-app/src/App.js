@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import { ScoreBoard } from './components/Scoreboard'
+import { GameBoard } from './components/GameBoard'
+import { useCardGame } from './hooks/useCardGame';
 
 function App() {
+  const { cards, score, bestScore, handleCardClick } = useCardGame();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1>TWIN CARD GAME</h1>
+      <GameBoard cards={cards} onCardClick={handleCardClick}/>
+      <ScoreBoard score={score} bestScore={bestScore}/>
     </div>
   );
 }
