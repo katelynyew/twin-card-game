@@ -18,22 +18,7 @@ CSS3 - Styling and animations
 localStorage - Client-side data persistence
 Git - Version control
 
- Architecture
-The project follows React best practices with a clean separation of concerns:
-src/
-├── components/
-│   ├── Card.js           # Individual card component
-│   ├── GameBoard.js      # 4x3 grid container
-│   └── Scoreboard.js     # Score display component
-├── hooks/
-│   ├── useCardGame.js    # Custom hook for game logic & state
-│   ├── createCardArray.js # Card initialization utility
-│   └── storage.js        # localStorage management
-├── utils/
-│   └── shuffle.js        # Fisher-Yates shuffle algorithm
-├── assets/
-│   └── images/           # Card back image and UI assets
-└── App.js                # Root component
+ 
  Getting Started
 Prerequisites
 
