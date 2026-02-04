@@ -2,6 +2,10 @@
 
 A memory-matching card game built with **React** that challenges players to find matching pairs of cards. Features dynamic card images from the **Giphy API**, score tracking, and persistent high score management.
 
+# Screenshots
+![Twin Card Game Preview](./src/assets/images/startplay.png)
+![Twin Card Game Preview](./src/assets/images/done.png)
+
 ---
 
 ## Features
