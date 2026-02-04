@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.469971ff.css",
-    "main.js": "/static/js/main.f1a14685.js",
-    "static/js/453.fd2f0c4a.chunk.js": "/static/js/453.fd2f0c4a.chunk.js",
-    "static/media/cardback.jpg": "/static/media/cardback.e654ae799bedc1a69361.jpg",
-    "static/media/flip.mp3": "/static/media/flip.7d1954d1cba5595c0b49.mp3",
-    "index.html": "/index.html",
-    "main.469971ff.css.map": "/static/css/main.469971ff.css.map",
-    "main.f1a14685.js.map": "/static/js/main.f1a14685.js.map",
-    "453.fd2f0c4a.chunk.js.map": "/static/js/453.fd2f0c4a.chunk.js.map"
+    "main.css": "/twin-card-game/static/css/main.469971ff.css",
+    "main.js": "/twin-card-game/static/js/main.fed3af15.js",
+    "static/js/453.fd2f0c4a.chunk.js": "/twin-card-game/static/js/453.fd2f0c4a.chunk.js",
+    "static/media/cardback.jpg": "/twin-card-game/static/media/cardback.e654ae799bedc1a69361.jpg",
+    "static/media/flip.mp3": "/twin-card-game/static/media/flip.7d1954d1cba5595c0b49.mp3",
+    "index.html": "/twin-card-game/index.html",
+    "main.469971ff.css.map": "/twin-card-game/static/css/main.469971ff.css.map",
+    "main.fed3af15.js.map": "/twin-card-game/static/js/main.fed3af15.js.map",
+    "453.fd2f0c4a.chunk.js.map": "/twin-card-game/static/js/453.fd2f0c4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.469971ff.css",
-    "static/js/main.f1a14685.js"
+    "static/js/main.fed3af15.js"
   ]
 }
